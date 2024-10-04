@@ -1,0 +1,26 @@
+PODS:
+  - iOSDropDown (0.4.0)
+  - Realm (10.52.2):
+    - Realm/Headers (= 10.52.2)
+  - Realm/Headers (10.52.2)
+  - RealmSwift (10.52.2):
+    - Realm (= 10.52.2)
+
+DEPENDENCIES:
+  - iOSDropDown (~> 0.4)
+  - RealmSwift (~> 10.52)
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  Realm: e44eb7d20fe469fe1179894fd356727b8fbe61c2
+  RealmSwift: 7aacbd3101158f7d54c930bcfcfaafadbd376ffc
+
+PODFILE CHECKSUM: 3702a3767cb8533b3b86333a43569e9057f3b884
+
+COCOAPODS: 1.15.2

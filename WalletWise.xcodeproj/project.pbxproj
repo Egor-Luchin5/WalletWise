@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8F6C03BF914E0963207D50 /* Pods_WalletWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43162B5BCCF3F068DA3CAFF /* Pods_WalletWise.framework */; };
+		2321B4252C7A60AA0028C820 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321B4242C7A60AA0028C820 /* CategoriesTableViewCell.swift */; };
+		232F04272C731B74002142A3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F04262C731B74002142A3 /* WelcomeViewController.swift */; };
+		232F04292C7324AE002142A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F04282C7324AE002142A3 /* SceneDelegate.swift */; };
+		232F042E2C732D82002142A3 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F042C2C732D82002142A3 /* TransactionTableViewCell.swift */; };
+		23715B0F2C676A1A00781C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B0E2C676A1A00781C56 /* AppDelegate.swift */; };
+		23715B132C676A1A00781C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B122C676A1A00781C56 /* ViewController.swift */; };
+		23715B162C676A1A00781C56 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23715B152C676A1A00781C56 /* Base */; };
+		23715B182C676A1B00781C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23715B172C676A1B00781C56 /* Assets.xcassets */; };
+		23715B1B2C676A1B00781C56 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23715B1A2C676A1B00781C56 /* Base */; };
+		23715B262C676A1B00781C56 /* WalletWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B252C676A1B00781C56 /* WalletWiseTests.swift */; };
+		23715B302C676A1B00781C56 /* WalletWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B2F2C676A1B00781C56 /* WalletWiseUITests.swift */; };
+		23715B322C676A1B00781C56 /* WalletWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B312C676A1B00781C56 /* WalletWiseUITestsLaunchTests.swift */; };
+		23715B3F2C6781B800781C56 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B3E2C6781B800781C56 /* TransactionViewController.swift */; };
+		23715B412C67A27C00781C56 /* ManagerAndModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B402C67A27C00781C56 /* ManagerAndModel.swift */; };
+		23715B482C68E70600781C56 /* NumberFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B472C68E70600781C56 /* NumberFormatterManager.swift */; };
+		23715B4A2C6929D100781C56 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B492C6929D100781C56 /* SettingsViewController.swift */; };
+		23715B4C2C6A280000781C56 /* SelectedTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23715B4B2C6A280000781C56 /* SelectedTransactionViewController.swift */; };
+		23E6A8082C79113B007FE1EF /* ManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6A8072C79113B007FE1EF /* ManageCategoryViewController.swift */; };
+		772D8C7E0F3BA51D0F33A760 /* Pods_WalletWiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C7C66CB173651D5043CE02 /* Pods_WalletWiseTests.framework */; };
+		C5189F8B9BB6AB78A593A25A /* Pods_WalletWise_WalletWiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77125A09EA5B15C21F2AC463 /* Pods_WalletWise_WalletWiseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23715B222C676A1B00781C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23715B032C676A1900781C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23715B0A2C676A1900781C56;
+			remoteInfo = WalletWise;
+		};
+		23715B2C2C676A1B00781C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23715B032C676A1900781C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23715B0A2C676A1900781C56;
+			remoteInfo = WalletWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2321B4242C7A60AA0028C820 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		232F04262C731B74002142A3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		232F04282C7324AE002142A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		232F042C2C732D82002142A3 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		23715B0B2C676A1A00781C56 /* WalletWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23715B0E2C676A1A00781C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23715B122C676A1A00781C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23715B152C676A1A00781C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23715B172C676A1B00781C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23715B1A2C676A1B00781C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23715B1C2C676A1B00781C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23715B212C676A1B00781C56 /* WalletWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23715B252C676A1B00781C56 /* WalletWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWiseTests.swift; sourceTree = "<group>"; };
+		23715B2B2C676A1B00781C56 /* WalletWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23715B2F2C676A1B00781C56 /* WalletWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWiseUITests.swift; sourceTree = "<group>"; };
+		23715B312C676A1B00781C56 /* WalletWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23715B3E2C6781B800781C56 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		23715B402C67A27C00781C56 /* ManagerAndModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAndModel.swift; sourceTree = "<group>"; };
+		23715B472C68E70600781C56 /* NumberFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterManager.swift; sourceTree = "<group>"; };
+		23715B492C6929D100781C56 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		23715B4B2C6A280000781C56 /* SelectedTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTransactionViewController.swift; sourceTree = "<group>"; };
+		23E6A8072C79113B007FE1EF /* ManageCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCategoryViewController.swift; sourceTree = "<group>"; };
+		28D870303FCAEDEC673EA82B /* Pods-WalletWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWise.release.xcconfig"; path = "Target Support Files/Pods-WalletWise/Pods-WalletWise.release.xcconfig"; sourceTree = "<group>"; };
+		66C7C66CB173651D5043CE02 /* Pods_WalletWiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletWiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7143B2FCB5251DE6849A1CD0 /* Pods-WalletWiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWiseTests.release.xcconfig"; path = "Target Support Files/Pods-WalletWiseTests/Pods-WalletWiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		74CFBC81D8E6A685DBA685C4 /* Pods-WalletWise-WalletWiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWise-WalletWiseUITests.debug.xcconfig"; path = "Target Support Files/Pods-WalletWise-WalletWiseUITests/Pods-WalletWise-WalletWiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77125A09EA5B15C21F2AC463 /* Pods_WalletWise_WalletWiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletWise_WalletWiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43162B5BCCF3F068DA3CAFF /* Pods_WalletWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E391CE004DB287A288ECE877 /* Pods-WalletWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWise.debug.xcconfig"; path = "Target Support Files/Pods-WalletWise/Pods-WalletWise.debug.xcconfig"; sourceTree = "<group>"; };
+		EC500524B7D29B34444E66A0 /* Pods-WalletWiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWiseTests.debug.xcconfig"; path = "Target Support Files/Pods-WalletWiseTests/Pods-WalletWiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECDF7767A03CD3456149074E /* Pods-WalletWise-WalletWiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletWise-WalletWiseUITests.release.xcconfig"; path = "Target Support Files/Pods-WalletWise-WalletWiseUITests/Pods-WalletWise-WalletWiseUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23715B082C676A1900781C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8F6C03BF914E0963207D50 /* Pods_WalletWise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23715B1E2C676A1B00781C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772D8C7E0F3BA51D0F33A760 /* Pods_WalletWiseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23715B282C676A1B00781C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5189F8B9BB6AB78A593A25A /* Pods_WalletWise_WalletWiseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1744B9F161BAAF20CE9A4762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C43162B5BCCF3F068DA3CAFF /* Pods_WalletWise.framework */,
+				77125A09EA5B15C21F2AC463 /* Pods_WalletWise_WalletWiseUITests.framework */,
+				66C7C66CB173651D5043CE02 /* Pods_WalletWiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2359C4062C8F8319000D36CF /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				232F04282C7324AE002142A3 /* SceneDelegate.swift */,
+				23715B0E2C676A1A00781C56 /* AppDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		2359C4072C8F8342000D36CF /* ManagersAndModels */ = {
+			isa = PBXGroup;
+			children = (
+				23715B472C68E70600781C56 /* NumberFormatterManager.swift */,
+				23715B402C67A27C00781C56 /* ManagerAndModel.swift */,
+			);
+			path = ManagersAndModels;
+			sourceTree = "<group>";
+		};
+		2359C4082C8F8386000D36CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23715B1C2C676A1B00781C56 /* Info.plist */,
+				23715B142C676A1A00781C56 /* Main.storyboard */,
+				23715B192C676A1B00781C56 /* LaunchScreen.storyboard */,
+				23715B172C676A1B00781C56 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		23715B022C676A1900781C56 = {
+			isa = PBXGroup;
+			children = (
+				23715B0D2C676A1A00781C56 /* WalletWise */,
+				23715B242C676A1B00781C56 /* WalletWiseTests */,
+				23715B2E2C676A1B00781C56 /* WalletWiseUITests */,
+				23715B0C2C676A1A00781C56 /* Products */,
+				F20E74184B29ABD787C63290 /* Pods */,
+				1744B9F161BAAF20CE9A4762 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23715B0C2C676A1A00781C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23715B0B2C676A1A00781C56 /* WalletWise.app */,
+				23715B212C676A1B00781C56 /* WalletWiseTests.xctest */,
+				23715B2B2C676A1B00781C56 /* WalletWiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23715B0D2C676A1A00781C56 /* WalletWise */ = {
+			isa = PBXGroup;
+			children = (
+				2359C4072C8F8342000D36CF /* ManagersAndModels */,
+				2359C4062C8F8319000D36CF /* Applications */,
+				23715B442C67DBD700781C56 /* Cells */,
+				2374D1472C70938E003A7E37 /* Controllers */,
+				2359C4082C8F8386000D36CF /* Resources */,
+			);
+			path = WalletWise;
+			sourceTree = "<group>";
+		};
+		23715B242C676A1B00781C56 /* WalletWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				23715B252C676A1B00781C56 /* WalletWiseTests.swift */,
+			);
+			path = WalletWiseTests;
+			sourceTree = "<group>";
+		};
+		23715B2E2C676A1B00781C56 /* WalletWiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23715B2F2C676A1B00781C56 /* WalletWiseUITests.swift */,
+				23715B312C676A1B00781C56 /* WalletWiseUITestsLaunchTests.swift */,
+			);
+			path = WalletWiseUITests;
+			sourceTree = "<group>";
+		};
+		23715B442C67DBD700781C56 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				232F042C2C732D82002142A3 /* TransactionTableViewCell.swift */,
+				2321B4242C7A60AA0028C820 /* CategoriesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2374D1472C70938E003A7E37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23715B122C676A1A00781C56 /* ViewController.swift */,
+				23715B3E2C6781B800781C56 /* TransactionViewController.swift */,
+				23E6A8072C79113B007FE1EF /* ManageCategoryViewController.swift */,
+				23715B492C6929D100781C56 /* SettingsViewController.swift */,
+				232F04262C731B74002142A3 /* WelcomeViewController.swift */,
+				23715B4B2C6A280000781C56 /* SelectedTransactionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F20E74184B29ABD787C63290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E391CE004DB287A288ECE877 /* Pods-WalletWise.debug.xcconfig */,
+				28D870303FCAEDEC673EA82B /* Pods-WalletWise.release.xcconfig */,
+				74CFBC81D8E6A685DBA685C4 /* Pods-WalletWise-WalletWiseUITests.debug.xcconfig */,
+				ECDF7767A03CD3456149074E /* Pods-WalletWise-WalletWiseUITests.release.xcconfig */,
+				EC500524B7D29B34444E66A0 /* Pods-WalletWiseTests.debug.xcconfig */,
+				7143B2FCB5251DE6849A1CD0 /* Pods-WalletWiseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23715B0A2C676A1900781C56 /* WalletWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23715B352C676A1B00781C56 /* Build configuration list for PBXNativeTarget "WalletWise" */;
+			buildPhases = (
+				5394BC05325AB55EF5A4D6BF /* [CP] Check Pods Manifest.lock */,
+				23715B072C676A1900781C56 /* Sources */,
+				23715B082C676A1900781C56 /* Frameworks */,
+				23715B092C676A1900781C56 /* Resources */,
+				F6ECBBBD46A2B35DF85E448B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletWise;
+			productName = WalletWise;
+			productReference = 23715B0B2C676A1A00781C56 /* WalletWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23715B202C676A1B00781C56 /* WalletWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23715B382C676A1B00781C56 /* Build configuration list for PBXNativeTarget "WalletWiseTests" */;
+			buildPhases = (
+				82EEBF582A28AA67557EA641 /* [CP] Check Pods Manifest.lock */,
+				23715B1D2C676A1B00781C56 /* Sources */,
+				23715B1E2C676A1B00781C56 /* Frameworks */,
+				23715B1F2C676A1B00781C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23715B232C676A1B00781C56 /* PBXTargetDependency */,
+			);
+			name = WalletWiseTests;
+			productName = WalletWiseTests;
+			productReference = 23715B212C676A1B00781C56 /* WalletWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23715B2A2C676A1B00781C56 /* WalletWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23715B3B2C676A1B00781C56 /* Build configuration list for PBXNativeTarget "WalletWiseUITests" */;
+			buildPhases = (
+				4B097E12DE546A1C9F6BB093 /* [CP] Check Pods Manifest.lock */,
+				23715B272C676A1B00781C56 /* Sources */,
+				23715B282C676A1B00781C56 /* Frameworks */,
+				23715B292C676A1B00781C56 /* Resources */,
+				D31EB4FD1A78025E123D07BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23715B2D2C676A1B00781C56 /* PBXTargetDependency */,
+			);
+			name = WalletWiseUITests;
+			productName = WalletWiseUITests;
+			productReference = 23715B2B2C676A1B00781C56 /* WalletWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23715B032C676A1900781C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					23715B0A2C676A1900781C56 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					23715B202C676A1B00781C56 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 23715B0A2C676A1900781C56;
+					};
+					23715B2A2C676A1B00781C56 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 23715B0A2C676A1900781C56;
+					};
+				};
+			};
+			buildConfigurationList = 23715B062C676A1900781C56 /* Build configuration list for PBXProject "WalletWise" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23715B022C676A1900781C56;
+			productRefGroup = 23715B0C2C676A1A00781C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23715B0A2C676A1900781C56 /* WalletWise */,
+				23715B202C676A1B00781C56 /* WalletWiseTests */,
+				23715B2A2C676A1B00781C56 /* WalletWiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23715B092C676A1900781C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23715B182C676A1B00781C56 /* Assets.xcassets in Resources */,
+				23715B1B2C676A1B00781C56 /* Base in Resources */,
+				23715B162C676A1A00781C56 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23715B1F2C676A1B00781C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23715B292C676A1B00781C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B097E12DE546A1C9F6BB093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalletWise-WalletWiseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5394BC05325AB55EF5A4D6BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalletWise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82EEBF582A28AA67557EA641 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalletWiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31EB4FD1A78025E123D07BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalletWise-WalletWiseUITests/Pods-WalletWise-WalletWiseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalletWise-WalletWiseUITests/Pods-WalletWise-WalletWiseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalletWise-WalletWiseUITests/Pods-WalletWise-WalletWiseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6ECBBBD46A2B35DF85E448B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalletWise/Pods-WalletWise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalletWise/Pods-WalletWise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalletWise/Pods-WalletWise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23715B072C676A1900781C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23715B132C676A1A00781C56 /* ViewController.swift in Sources */,
+				232F042E2C732D82002142A3 /* TransactionTableViewCell.swift in Sources */,
+				232F04272C731B74002142A3 /* WelcomeViewController.swift in Sources */,
+				23715B412C67A27C00781C56 /* ManagerAndModel.swift in Sources */,
+				23715B0F2C676A1A00781C56 /* AppDelegate.swift in Sources */,
+				2321B4252C7A60AA0028C820 /* CategoriesTableViewCell.swift in Sources */,
+				23715B482C68E70600781C56 /* NumberFormatterManager.swift in Sources */,
+				23715B4C2C6A280000781C56 /* SelectedTransactionViewController.swift in Sources */,
+				23715B3F2C6781B800781C56 /* TransactionViewController.swift in Sources */,
+				232F04292C7324AE002142A3 /* SceneDelegate.swift in Sources */,
+				23E6A8082C79113B007FE1EF /* ManageCategoryViewController.swift in Sources */,
+				23715B4A2C6929D100781C56 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23715B1D2C676A1B00781C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23715B262C676A1B00781C56 /* WalletWiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23715B272C676A1B00781C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23715B302C676A1B00781C56 /* WalletWiseUITests.swift in Sources */,
+				23715B322C676A1B00781C56 /* WalletWiseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23715B232C676A1B00781C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23715B0A2C676A1900781C56 /* WalletWise */;
+			targetProxy = 23715B222C676A1B00781C56 /* PBXContainerItemProxy */;
+		};
+		23715B2D2C676A1B00781C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23715B0A2C676A1900781C56 /* WalletWise */;
+			targetProxy = 23715B2C2C676A1B00781C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23715B142C676A1A00781C56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23715B152C676A1A00781C56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23715B192C676A1B00781C56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23715B1A2C676A1B00781C56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23715B332C676A1B00781C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23715B342C676A1B00781C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23715B362C676A1B00781C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E391CE004DB287A288ECE877 /* Pods-WalletWise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVGBNQ4633;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWise/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lesson.WalletWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23715B372C676A1B00781C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D870303FCAEDEC673EA82B /* Pods-WalletWise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVGBNQ4633;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalletWise/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lesson.WalletWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23715B392C676A1B00781C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC500524B7D29B34444E66A0 /* Pods-WalletWiseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lesson.WalletWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalletWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalletWise";
+			};
+			name = Debug;
+		};
+		23715B3A2C676A1B00781C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7143B2FCB5251DE6849A1CD0 /* Pods-WalletWiseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lesson.WalletWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalletWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalletWise";
+			};
+			name = Release;
+		};
+		23715B3C2C676A1B00781C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CFBC81D8E6A685DBA685C4 /* Pods-WalletWise-WalletWiseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lesson.WalletWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalletWise;
+			};
+			name = Debug;
+		};
+		23715B3D2C676A1B00781C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECDF7767A03CD3456149074E /* Pods-WalletWise-WalletWiseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lesson.WalletWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalletWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23715B062C676A1900781C56 /* Build configuration list for PBXProject "WalletWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23715B332C676A1B00781C56 /* Debug */,
+				23715B342C676A1B00781C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23715B352C676A1B00781C56 /* Build configuration list for PBXNativeTarget "WalletWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23715B362C676A1B00781C56 /* Debug */,
+				23715B372C676A1B00781C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23715B382C676A1B00781C56 /* Build configuration list for PBXNativeTarget "WalletWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23715B392C676A1B00781C56 /* Debug */,
+				23715B3A2C676A1B00781C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23715B3B2C676A1B00781C56 /* Build configuration list for PBXNativeTarget "WalletWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23715B3C2C676A1B00781C56 /* Debug */,
+				23715B3D2C676A1B00781C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23715B032C676A1900781C56 /* Project object */;
+}
